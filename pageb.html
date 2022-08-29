@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotización</title>
+    <link rel="stylesheet" href="css/misestilos.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="pagea.html"> <img src="img/logo1.jfif" alt="logo1" width="75px"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="pagea.html">Pagea</a>
+                  <a class="nav-link" href="pageb.html">Pageb</a>
+                  <a class="nav-link" href="pagec.html">Pagec</a>
+                  <a class="nav-link" href="page1.html" target="_blank">Page1</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 d-sm-none d-md-block py-3 ">
+          <div class="card ">
+            <div class=" table-responsive">
+          <table class="table table-borderless caption-top d-none d-sm-block">
+            <caption class="bg-gradient bg-info text-light fs-4 text-center">Conversor de divisas</caption>
+            <thead>
+              <tr>
+                <th></th>
+                <th></th>
+                <th style="text-align: center;"><img src="img/argentina.png" class="card-img-top img-fluid " alt="">ARS</th>
+                <th style="text-align: center;"><img src="img/rusia.png" class="card-img-top img-fluid " alt="">RUB</th>
+                <th style="text-align: center;"><img src="img/japon.png" class="card-img-top img-fluid " alt="">JPY</th>
+                <th style="text-align: center;"><img src="img/eeuu.png" class="card-img-top img-fluid " alt="">USD</th>
+                <th style="text-align: center;"><img src="img/euro.png" class="card-img-top img-fluid " alt="">EUR</th>
+                <th style="text-align: center;"><img src="img/bitcoin.png" class="card-img-top img-fluid " alt="">BTC</th>
+        
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="text-align: center;">
+                <td><img src="img/euro.png" class=" py-2" alt=""></td>
+                <th>1 EUR Inverse</th>
+                <th>123456 123456 </th>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+               
+                
+              </tr>
+              <tr style="text-align: center;">
+                <td><img src="img/argentina.png" class=" py-2" alt=""></td>
+                <th>1 ARS Inverse</th>
+                <td class="text-primary">123456 123456</td>
+                <th>123456 123456</th>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+               
+    
+              </tr>
+              <tr style="text-align: center;">
+                <td><img src="img/rusia.png" class="py-2" alt=""></td>
+                <th>1 RUB Inverse</th>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                <th>123456 123456</th>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                
+                
+              </tr>
+              <tr style="text-align: center;">
+                <td><img src="img/bitcoin.png" class=" py-2" alt=""></td>
+                <th>1 BTC Inverse</th>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+                <td class="text-primary">123456 123456</td>
+              </tr>
+            </tbody>
+          </table>
+            </div>
+        </div>
+        </div>
+        <div class=" col-sm-12 col-md-4 py-3">
+          <div class="card">
+            <div class="card-header bg-gradient text-light" style="background-color: indigo; text-align: center;" >
+              <span>Conversor de divisas</span>
+            </div>
+          </div>
+          <div class="card-body text-light bg-gradient" style="background-color: indigo;">          
+          <form>
+            <div class="mb-3">
+              <label for="cantidad-num" class="form-label">Cantidad</label>
+              <input type="number" placeholder="Cantidad" style="text-align: end;" class="form-control" id="cantidad-num"> 
+            </div>
+              <div class="mb-3">
+              <label for="divisa-select" class="form-label">De</label>
+              <select class="form-select" id="divisa-select">
+                <option value="1">USD Dólares EEUU</option>
+                <option value="2">ARS Pesos Argentinos</option>
+                <option value="3">BTC Bitcoin</option>
+                <option value="4">EUR Euro</option>
+                <option value="5">RUB Rublo Ruso</option>
+                <option value="6">JPY Yen Japonés</option>
+
+              </select>
+
+            </div>
+            <div class="mb-3">
+              <label for="divisa-select" class="form-label">A</label>
+              <select class="form-select" id="divisa-select">
+                <option value="1">ARS Pesos Argentinos</option>
+                <option value="2">USD Dólares EEUU</option>
+                <option value="3">BTC Bitcoin</option>
+                <option value="4">EUR Euro</option>
+                <option value="5">RUB Rublo Ruso</option>
+                <option value="6">JPY Yen Japonés</option>
+              </select>
+              <label for="cantidad-num" class="form-label"></label>
+              <input type="number"class="form-control" id="cantidad-num">  
+            </div>
+            <div class="card-footer">
+              <div class="d-grid gap-2">
+                <button type="button" class="btn btn-warning">Convertir</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

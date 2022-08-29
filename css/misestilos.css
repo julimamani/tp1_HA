@@ -1,0 +1,62 @@
+@media(max-width: 575px){   
+    #contenedor1{
+
+        text-align: center;
+        background-color: greenyellow;
+        font-style: initial;
+        font-style: italic;
+        color: blue;
+    }
+
+
+}
+/*sm*/
+@media(min-width: 576px) and (max-width: 767px){
+    #contenedor1{
+        text-align: left;
+        background-color: aqua;
+        font-style: initial;
+        font-style: italic;
+        color: blue;
+    }
+    #contenedor2{
+        width: 5rem;
+    }
+}
+/*md*/
+@media(min-width: 768px) and (max-width: 991px){
+    #contenedor1{
+        text-align: left;
+        background-color: lightgreen;
+        font-style: initial;
+        font-style: italic;
+        color: blue;
+    }
+   
+
+}
+/*lg*/
+@media(min-width: 992px){
+    #contenedor1{
+        text-align: left;
+        background-color: green;
+        font-style: initial;
+        font-style: italic;
+        color: blue;
+    }
+    
+
+}
+/*xl*/
+@media (min-width: 1200px){
+    #contenedor1{
+        text-align: left;
+        background-color: green;
+        font-style: initial;
+        font-style: italic;
+        color: blue;
+    }
+    
+}
+
+
